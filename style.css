@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*utility class*/
+.container{
+    max-width: 1200px;
+    margin: auto;
+    width: 90%;
+}
+/*NavBar Section */
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.menuIcon{
+    position: absolute;
+    top:10px;
+    left:10px;
+    z-index: 2;
+    height: 2rem;
+    width: 2rem;
+    display: none;
+    
+}
+.xIcon{
+    position: absolute;
+    top:10px;
+    left:10px;
+    z-index: 1;
+    height: 2rem;
+    width: 2rem;
+    display: none;
+}
+.left-side{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    width: 120px;
+    height: 100%;
+    margin-top: 1rem;   
+}
+.menu-links li{
+    display: inline;
+    list-style: none;
+    padding: 1rem;
+}
+.menu-links a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: normal;
+    color:rgb(38, 38, 38);
+}
+.menu-links a:hover{
+    border-bottom:4px solid #000;
+    transition: all 200ms ease-in-out;
+}
+.right-side i{
+    margin-right:1rem;
+    font-size: 1.5rem;
+}
+/*slider-section*/
+#slider{
+    margin-top: 2rem;
+}
+.slider-container{
+    background: url(/images/slide1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:400px;
+    text-align: center;
+    object-fit: cover;
+}
+.slider-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 24rem;
+    
+}
+h2.slider-heading{
+    margin-bottom: -0.3rem;
+    font-size: 2rem;
+}
+.slider-para p{
+    font-size: 1.5rem;
+}
+.slider-button a{
+display: inline-block;
+background: rgb(38, 38, 38);
+font-size: 1.5rem;
+color:#fff;
+text-decoration: none;
+padding: 1rem 1.5rem;
+}
+.slider-button a:hover{
+    border: 2px solid #000;
+    transition: all 0.2s ease-in-out;
+}
+
+/*Products Section */
+#products{
+    margin-top: 2rem;
+}
+.products-container{
+    display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+.img-1 img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    
+   
+
+}
+.item-1{
+    flex-basis: 25%;
+    
+}
+
+
+.content-1{
+    font-size: 1.5rem;
+}
+.content-1 a{
+    text-decoration: none;
+}
+.content-1 a:hover{
+    border-bottom: 4px solid #000;
+    transition: all 0.2s ease-in-out;
+}
+/*showcase */
+#showcase{
+    margin-top: 2rem;
+}
+.showcase-content{
+    background: url("https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWAn3f?ver=86c9&q=0&m=8&h=600&w=1600&b=%23FFFFFFFF&l=f&x=0&y=279&s=3000&d=1125&aim=true");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    padding-top: 5rem;
+   
+    
+
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 10rem;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+.content h2{
+   margin-bottom:-0.8rem;
+}
+/* Business Container*/
+#business{
+    margin-top: 20px;
+}
+#business>h2{
+    font-size: 2rem;
+}
+.business-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:10px;
+}
+/*covid Banner*/
+.covid-container{
+    background: #e6e6e6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    height: 140px;
+    text-align: center;
+    
+    font-size: 2rem;
+}
+.covid-container h2{
+    margin-top: 1rem;
+    line-height: normal;
+}
+.covid-container p{
+    margin-top: -1.5rem;
+    font-size: 1.5rem;
+}
+.covid-container a{
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+.covid-container a:hover{
+    border-bottom: 4px solid #000;
+    transition: all 0.2s ease-in-out;
+    font-size: 1rem;
+
+}
+/*footer*/
+#footer{
+    margin-top: 2rem;
+    background: #e6e6e6;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+
+    margin: 0 auto;
+    padding: 10px 30px;
+    max-width: 100%;
+    font-size: 1.2rem;
+    justify-items: flex-start;
+
+}
+.footer-container h2{
+    color:rgb(97, 97, 97);
+    font-weight: bold;
+}
+.footer-container li{
+    list-style: none;
+}
+.footer-container li a{
+    text-decoration: none;
+    color:rgb(97, 97, 97);
+    font-weight: normal;
+}
+.end-content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+   
+}
+.globe{
+    margin-left: 3rem;
+}
+.details{
+    margin-right: 10rem;
+}
+.details li{
+    display: inline-block;
+    margin-right: 2rem;
+    padding-right: 2rem;
+   
+}
+.details li a{
+    text-decoration: none;
+    color:rgb(97, 97, 97);
+}
+span{
+    cursor: pointer;
+}
+/*Media query*/
+@media only screen and (max-width:700px){
+    .products-container{
+        display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px;
+    }
+    .business-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .footer-container{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .end-content{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    .details{
+        margin-right: 0px;
+        padding-left: 2.9rem;
+    }
+    .slider-container{
+        max-width: 100%;
+        background-position: cover;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    
+    .showcase-content{
+        width: 100%;
+        background: url("microsoft.png");
+        background-position: top;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 400px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    .content{
+        padding-top: 25rem;
+        text-align: center;
+        padding-bottom: 3rem;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 400px;
+        padding-left: 12rem;
+        
+        
+    }
+    
+    .content p{
+        text-align:center ;
+    }
+   #business{
+       margin-top: 20rem;
+   }
+   .menu-links {
+       display: flex;
+       flex-direction: column;
+       position: absolute;
+       top:20px;
+       left:-30px;
+       width: 100%;
+       height: 100vh;
+       margin-top: 1.8rem;
+       transform: translateX(-100%);
+       background: #e6e6e6;
+       transition: transform 0.2s ease-in-out;
+   }
+   .menu-links li{
+       
+       padding-top: 5rem;
+       border-bottom:#ccc solid 1px;
+   }
+   .logo img{
+      margin-left: 20rem;
+   }
+   .menuIcon{
+       display: block;
+   }
+   .showmenu{
+       
+       transform: translateX(0%);
+   }
+   }
+   @media only  screen and (max-width:500px){
+    .products-container{
+        display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 20px;
+    }
+    .business-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .end-content{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    .details li{
+        margin-right: 0px;
+        margin-left: 0rem;
+        font-size:1rem;
+    }
+    .showcase-content{
+        max-width: 100%;
+        background: url("microsoft.png");
+        background-position: top;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 400px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        width: 100vw;
+    }
+    .slider-container{
+        max-width: 100%;
+        background-position: cover;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-size: cover;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        width: 100vw;
+    }
+   
+    .content{
+        padding-top: 10rem;
+        text-align: center;
+        padding-bottom: 3rem;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items:stretch;
+     
+        font-size: 1.2rem;
+        margin-left: -150px;   
+        
+    }
+    #business{
+        margin-top: 1rem;
+    }
+    .covid-container{
+        font-size: 1.5rem;
+    }
+    .logo img{
+        margin-left: 12rem;
+    }
+   .right-side i{
+       margin-top: 1rem;
+      
+   }
+   .covid-container{
+       width: 100vw;
+   }
+    
+}
