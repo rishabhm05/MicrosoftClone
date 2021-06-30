@@ -9,7 +9,7 @@
 ![microsoft3](https://user-images.githubusercontent.com/67910259/123901933-8fb9d680-d989-11eb-8648-45bf91e2e001.PNG)
 ![microsoft4](https://user-images.githubusercontent.com/67910259/123902197-0d7de200-d98a-11eb-9d03-a1b967cfc07a.PNG)
 ![microsoft 5png](https://user-images.githubusercontent.com/67910259/123902587-b9bfc880-d98a-11eb-9f64-b7ecb293da9e.PNG)
-<b font-size=20px>Mobile View
+<b font-size=20px>Mobile View<br>
 ![microsoft6](https://user-images.githubusercontent.com/67910259/123902791-14f1bb00-d98b-11eb-9d1c-c843af504984.PNG)
 
 
